@@ -15,6 +15,10 @@ const somar = (...numeros) => {
     return total
 }
 
+const subtrair = (a, b) => a - b
+console.log(subtrair(4, 1))
+
+
 console.log(somar(1, 2, 3))
 console.log(somar(1, 2, 3, 4, 5, 6))
 console.log(somar(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
