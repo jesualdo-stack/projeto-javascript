@@ -26,5 +26,7 @@ Array.prototype.meuReduce = function(fn, inicial) {
             acc = this[i]
             continue
         }
+        fn(acc, this[i], i, this)
     }
+    return acc
 }
